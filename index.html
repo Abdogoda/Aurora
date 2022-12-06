@@ -1,0 +1,120 @@
+<html>
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aurora</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+  <link rel="icon" href="assets/img/logo.png" type="image/icon type" />
+ </head>
+ <body>
+  <!--header-->
+  <header>
+   <div class="container">
+    <a href="#" class="logo"><span>A</span>urora</a>
+    <div class="flex">
+     <ul class="nav">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#games">Games</a></li>
+      <li><a href="#tournaments">Tournaments</a></li>
+      <li><a href="#contact">Contact us</a></li>
+     </ul>
+     <div class="theme"><i class="fas"></i></div>
+     <div class="toggleMenu" onclick="toggleMenu()">
+      <p></p>
+      <p></p>
+      <p></p>
+     </div>
+    </div>
+   </div>
+  </header>
+  <main>
+   <div class="landing_background"></div>
+   <!--home banner-->
+   <section class="home" id="home">
+    <div class="container flex-between">
+     <div class="bg flex-between">
+      <div class="content home_content w-50">
+       <h2>The world of games is<br />in your hands</h2>
+       <p>Adventure survival war startgeic sports.</p>
+       <a href="#" class="btn">Join Now</a>
+      </div>
+      <img src="assets/img/landing.png" alt="landing-img" class="home_img" />
+     </div>
+    </div>
+   </section>
+   <!-- about section -->
+   <section class="about animeY" id="about">
+    <div class="container flex-between">
+     <div class="contentBox about_contentBox w-50">
+      <h2 class="section_header">About Us</h2>
+      <p>
+       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi tenetur
+       repudiandae architecto magnam veritatis! Blanditiis, esse? Consequatur
+       vero harum modi illum eum, laboriosam eveniet ea deserunt praesentium!
+       Optio, expedita? Ipsam aspernatur ducimus temporibus odit in sunt error
+       autem modi? Qui totam dolor quam repellat mollitia maxime quas eveniet
+       beatae inventore. Lorem ipsum dolor sit amet consectetur adipisicing
+       elit. Similique, sit!
+      </p>
+      <a href="#" class="btn">Read More</a>
+     </div>
+     <img src="assets/img/about.jpg" alt="about-img" class="w-50 about_img" />
+    </div>
+   </section>
+   <!-- games section -->
+   <section class="games animeY" id="games">
+    <div class="container">
+     <h2 class="section_header">Popular Games</h2>
+     <ul class="games_filter">
+      <li class="list active" data-filter="all">All</li>
+      <li class="list" data-filter="pc">Pc Games</li>
+      <li class="list" data-filter="mobile">Mobile Games</li>
+     </ul>
+     <div class="cardBox"><!-- the data will be added in data.js file--></div>
+    </div>
+   </section>
+   <!-- tournaments -->
+   <section class="tournaments animeY" id="tournaments">
+    <div class="container">
+     <h2 class="section_header">Live Tournaments</h2>
+     <div class="boxContainer flex-between">
+      <!-- the data will be added in data.js file-->
+     </div>
+    </div>
+   </section>
+   <!-- contact section -->
+   <section class="contact animeY" id="contact">
+    <div class="container">
+     <h2 class="section_header">Contact Us</h2>
+     <div class="flex-between">
+      <form class="form contact_form w-50">
+       <div class="inputBox">
+        <p>Your Name</p>
+        <input type="text" />
+       </div>
+       <div class="inputBox">
+        <p>Your Email</p>
+        <input type="email" />
+       </div>
+       <div class="inputBox">
+        <p>Your Message</p>
+        <textarea></textarea>
+       </div>
+       <div class="inputBox">
+        <input type="submit" value="Send Message" class="btn" />
+       </div>
+      </form>
+      <img src="" alt="contact-img" class="w-50 contact_img" />
+     </div>
+    </div>
+   </section>
+   <a href="#home" class="scrollup"><i class="fas fa-arrow-up"></i></a>
+  </main>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/scrollreveal.min.js"></script>
+  <script src="assets/js/main.js"></script>
+ </body>
+</html>
